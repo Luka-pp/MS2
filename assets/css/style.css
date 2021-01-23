@@ -1,16 +1,14 @@
 /*-----------------------------Canvas*/
 
-*{
-    padding: 0;
-    margin: 0;
-}
 canvas{
     background: #eee;
     display: block;
     margin: 0 auto;
    }
 /*-----------------------------Footer*/
-footer{
+.footer{
+    margin-top: 1rem;
+    padding-top: 1rem;
     text-align: center;
 }
 .fa{
