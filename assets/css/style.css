@@ -9,3 +9,121 @@ canvas{
     display: block;
     margin: 0 auto;
    }
+/*-----------------------------Footer*/
+footer{
+    text-align: center;
+}
+.fa{
+    text-decoration: none;
+    color: #fafafa;
+}
+.fa:hover{
+    color: #FFFF82;
+}
+.list-inline-item a{
+    text-decoration: none;
+    color: #fafafa;
+}
+a:hover {
+    color: #FFFF82;
+}
+
+/*-----------------------------Contact*/
+
+.contact-heading{
+    color: #FFFF82;
+}
+.field{
+    padding-top: 1rem;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    color: #FFFF82;
+}
+.form-control{
+    background-color: lightgrey;
+}
+.btn{
+    background-color: lightgrey;
+    border-radius: 1.9rem;
+    color: black;
+    height: 2.5rem;
+    width: 9rem;
+}
+.btn:hover {
+    background-color: #FFFF82;
+    border-radius: 1.9rem;
+    color: black;
+    height: 2.5rem;
+    width: 9rem;
+}
+
+/*-----------------------------Credits*/
+
+.credits-text{
+    color: #FFFF82;
+    font-size: 1.5rem ;
+    text-decoration: none;
+}
+.credits-text:hover{
+
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+}
+p {
+    color: #FFFF82;
+}
+
+/* Set the font, lean the board, position it */
+#board {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    transform: perspective(300px) rotateX(25deg);
+    transform-origin: 50% 100%;
+    text-align: justify;
+    position: absolute;
+    margin-left: -9em;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 350%;
+    height: 50em;
+    width: 18em;
+    bottom: 0;
+    left: 50%;
+}
+
+#board:after {
+    position: absolute;
+    content: ' ';
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/* Set the scrolling animation and position it */
+#content {
+    animation: scroll 100s linear 1s;
+    position: absolute;
+    top: 100%;
+}
+
+#title, #subtitle {
+    text-align: center;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}

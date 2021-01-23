@@ -70,8 +70,7 @@ function collisionDetection() {
                 if(score == brickRowCount*brickColumnCount) {
                     alert("YOU WIN, CONGRATULATIONS!");
                     document.location.reload();
-                    clearInterval(interval); // Needed for Chrome to end game
-                }
+                  }
                 }
             }
         }
@@ -144,7 +143,7 @@ function draw() {
             if(!lives) {
                 alert("GAME OVER");
                 document.location.reload();
-                clearInterval(interval); // Needed for Chrome to end game
+
             }
             else {
                 x = canvas.width/2;
@@ -154,6 +153,7 @@ function draw() {
                 paddleX = (canvas.width-paddleWidth)/2;
             }
         }
+
     }
 
     if(rightPressed && paddleX < canvas.width-paddleWidth) {
@@ -165,6 +165,7 @@ function draw() {
 
     x += dx;
     y += dy;
+    requestAnimationFrame(draw);
 }
 
-let interval = setInterval(draw, 10)
+draw();
