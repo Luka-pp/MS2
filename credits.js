@@ -1,4 +1,5 @@
 const numStars = 100;
+starWars.play();
 
 // For every star we want to display
 for (let i = 0; i < numStars; i++) {
