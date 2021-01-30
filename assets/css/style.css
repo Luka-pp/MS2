@@ -125,3 +125,16 @@ p {
         top: -170%;
     }
 }
+/*-----------------------------Button*/
+#startBtn{
+    text-align: center;
+    position: center;
+    color: #FFFF82;
+    font-size: 16px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.btnContainer{
+    text-align: center;
+    margin: 0 auto;
+}

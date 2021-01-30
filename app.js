@@ -10,8 +10,8 @@ const paddleWidth = 75;
 let paddleX = (canvas.width-paddleWidth) /2;
 let rightPressed = false;
 let leftPressed = false;
-let brickRowCount = 3;
-let brickColumnCount = 5;
+const brickRowCount = 5;
+const brickColumnCount = 7;
 let brickWidth = 75;
 let brickHeight = 20;
 let brickPadding = 10;
@@ -19,6 +19,7 @@ let brickOffsetTop = 30;
 let brickOffsetLeft = 30;
 let score = 0;
 let lives = 3;
+let startBtn = document.getElementById("startBtn");
 
 
 
@@ -29,7 +30,7 @@ for(let c=0; c<brickColumnCount; c++) {
         bricks[c][r] = { x: 0, y: 0, status: 1 };
     }
 }
-
+startBtn.addEventListener("click", draw);
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("mousemove", mouseMoveHandler, false);
@@ -68,7 +69,7 @@ function collisionDetection() {
                 b.status = 0;
                 score++;
                 if(score == brickRowCount*brickColumnCount) {
-                    alert("YOU WIN, CONGRATULATIONS!");
+                    alert("YOU WIN, CONGRATULATIONS!" +score);
                     document.location.reload();
                   }
                 }
@@ -141,7 +142,7 @@ function draw() {
         else {
             lives--;
             if(!lives) {
-                alert("GAME OVER");
+                alert("GAME OVER" + "Your Score Is: "+score);
                 document.location.reload();
 
             }
@@ -168,4 +169,4 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
-draw();
+//draw();
