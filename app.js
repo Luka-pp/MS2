@@ -43,19 +43,19 @@ function mouseMoveHandler(e) {
 }
 
 function keyDownHandler(e) {
-    if(e.key == "Right" || e.key == "ArrowRight") {
+    if(e.key === "Right" || e.key === "ArrowRight") {
         rightPressed = true;
     }
-    else if(e.key == "Left" || e.key == "ArrowLeft") {
+    else if(e.key === "Left" || e.key === "ArrowLeft") {
         leftPressed = true;
     }
 }
 
 function keyUpHandler(e) {
-    if(e.key == "Right" || e.key == "ArrowRight") {
+    if(e.key === "Right" || e.key === "ArrowRight") {
         rightPressed = false;
     }
-    else if(e.key == "Left" || e.key == "ArrowLeft") {
+    else if(e.key === "Left" || e.key === "ArrowLeft") {
         leftPressed = false;
     }
 }
@@ -63,12 +63,12 @@ function collisionDetection() {
     for(let c=0; c<brickColumnCount; c++) {
         for(let r=0; r<brickRowCount; r++) {
             let b = bricks[c][r];
-            if (b.status == 1){
+            if (b.status === 1){
             if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
                 dy = -dy;
                 b.status = 0;
                 score++;
-                if(score == brickRowCount*brickColumnCount) {
+                if(score === brickRowCount*brickColumnCount) {
                     alert("YOU WIN, CONGRATULATIONS!" +score);
                     document.location.reload();
                   }
@@ -105,7 +105,7 @@ function drawPaddle() {
 function drawBricks() {
     for(let c=0; c<brickColumnCount; c++) {
         for(let r=0; r<brickRowCount; r++) {
-            if (bricks [c][r].status == 1) {
+            if (bricks [c][r].status === 1) {
                 let brickX = (c * (brickWidth + brickPadding)) + brickOffsetLeft;
                 let brickY = (r * (brickHeight + brickPadding)) + brickOffsetTop;
                 bricks[c][r].x = brickX;
@@ -169,4 +169,4 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
-//draw();
+
