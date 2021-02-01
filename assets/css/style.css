@@ -80,7 +80,7 @@ p {
     color: #FFFF82;
 }
 
-/* Set the font, lean the board, position it */
+
 #board {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     transform: perspective(300px) rotateX(25deg);
@@ -106,7 +106,7 @@ p {
     top: 0;
 }
 
-/* Set the scrolling animation and position it */
+
 #content {
     animation: scroll 100s linear 1s;
     position: absolute;
@@ -138,3 +138,4 @@ p {
     text-align: center;
     margin: 0 auto;
 }
+/*-----------------------------Win Loose*/
