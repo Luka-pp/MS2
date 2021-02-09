@@ -2,8 +2,8 @@ const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 let x = canvas.width/2;
 let y = canvas.height-30;
-let dx = 2;
-let dy = -2;
+let dx = 3;
+let dy = -3;
 const ballRadius = 10;
 const paddleHeight = 10;
 const paddleWidth = 75;
@@ -20,6 +20,21 @@ let brickOffsetLeft = 30;
 let score = 0;
 let lives = 3;
 let startBtn = document.getElementById("startBtn");
+
+let youWon = document.getElementById("win")
+let youLost = document.getElementById("lost")
+
+function showYouLost(){
+    youLost.style.display = "block";
+    canvas.style.display = "none";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+}
+
+function showYouWin(){
+    youWon.style.display = "block";
+    canvas.style.display = "none";
+}
 
 
 
@@ -69,9 +84,11 @@ function collisionDetection() {
                 b.status = 0;
                 score++;
                 if(score === brickRowCount*brickColumnCount) {
-                    alert("YOU WIN, CONGRATULATIONS!" +score);
-                    document.location.reload();
+                    //alert("YOU WIN, CONGRATULATIONS!" +score);
 
+                    showYouWin();
+
+                   // document.location.reload();
                   }
                 }
             }
@@ -143,15 +160,17 @@ function draw() {
         else {
             lives--;
             if(!lives) {
-                alert("GAME OVER" + "Your Score Is: "+score);
-                document.location.reload();
+                //alert("GAME OVER" + "Your Score Is: "+score);
+                showYouLost();
+
+               // document.location.reload();
 
             }
             else {
                 x = canvas.width/2;
                 y = canvas.height-30;
-                dx = 2;
-                dy = -2;
+                dx = 3;
+                dy = -3;
                 paddleX = (canvas.width-paddleWidth)/2;
             }
         }
