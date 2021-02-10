@@ -16,3 +16,4 @@ This game is created to showcase the usage of JavaScript. It is intended for any
 who likes the trip down the memory lane when this kind of games were at their highest. 
 It is also created for all the fans of the Star Wars Saga. 
 
+## The owner
