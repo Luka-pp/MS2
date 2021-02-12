@@ -16,5 +16,104 @@ This game is created to showcase the usage of JavaScript. It is intended for any
 who likes the trip down the memory lane when this kind of games were at their highest. 
 It is also created for all the fans of the Star Wars Saga. 
 
-## The owner
+## What does it do?
+
+This is a simple brick breaking game. The user (player) has a goal to destroy all the bricks on the wall.
+The bricks are destroyed using moving ball and the paddle. When all the bricks are destroyed or all the lives are lost 
+the game is finished.
+
+## User Experience
+
+### User Stories
+
+* As a user I want to be able to navigate the website clearly and logically
+* As a user I want to play enjoyable and stress free game
+* As a user I want to track my score
+* As a user I want to be able to control the paddle with mouse
+* As a user I want to see who created a game
+* As a user I want to be able to contact the creator of the game
+
+#### Fulfilment
+
+* Navigation, Foooter and the pages content are laid out in a clear and logical way to guide user to his/hers desired location
+* The game is made and designed to be enjoyable and easy to play
+* The game is made that it tracks players score. Score is located in top right corner of the game screen
+* The game takes controls from the arrow keys of the keyboard and from the movement of the mouse
+* Separate credits page is created and on each of the pages user gave an option to visit it and see the games credits
+* Contact page is created that allows user to fill in the contact form and get in touch with the creator
+
+## UX 5 Planes
+
+### Strategy Plane
+
+The game is created to showcase the abilities of HTML, CSS and specially JavaScript.
+The theme of the whole website is Star Wars Saga. The game is designed to be simple and effective
+and to use keyboard or muse for the controls.
+
+### Scope Plane
+Features included in this Project
+
+* Three different pages
+* Game screen done with canvas element
+* Star Wars Inspired Credits Page
+* Contact page with a contact form
+
+### Structure Plane
+
+Website consists of 3 separate pages and each of the pages have its specific purpose.
+To get the desired effect of the Star Wars opening theme the credits page plays audio 
+automatically on load. 
+
+#### Header
+
+Header consists of links/buttons and their purpose is:
+
+* Game Page
+
+Links/Buttons for new game to start the game and to go on the credits page
+
+* Credits Page
+
+Links/Buttons for game page, to see the credits again and to go on the contact page.
+
+* Contact Page
+
+Consists of two links, one to game page nad the other to credits page
+
+#### Footer
+
+Footer consists of the Social icons which redirect user to desired social network.
+It also has 2 links to credits and contact page.
+
+The Credits Page does not have the footer due to specific animation of the credits.
+
+#### Game Page
+
+This is the main page if the site. It consists of the header, game area and footer.
+The game starts on the click on the **Start Game** button. The goal of the game is 
+to destroy all the brick on the wall. Player has 3 lives and looses a life each time
+the ball hits the bottom wall. Player controls the paddle with keyboard arrows left and right or movement of the mouse. 
+Player can keep track of the lives left in the top left corner of the game screen and his/hers 
+score in the top right corner of the game screen. Each broken brick gives player 1 point and maximum 
+points player can have is 35. If player looses all the lives the **Game Over** image will show.
+If the player destroys all the bricks the **Trophy** image will show.
+
+#### Credits Page
+
+This page consists of header and a crawl credits.
+This page has been inspired by the Star Wars opening credits. When the page is 
+loaded Star Wars Theme song will start playing and the text will start to 
+emerge from the bottom of the screen and it will gradually disappear on top of the page.
+
+#### Contact Page
+
+This page consists of a header, short introduction text, contact form and footer.
+
+### Skeleton Plane
+
+This game is designed to be used on Desktop screens but it can be used on smaller screens
+
+Wireframes are done on paper, which can be seen [Here](./assets/doc/wireframes.pdf)
+
+
 
