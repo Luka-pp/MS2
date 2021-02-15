@@ -25,13 +25,17 @@ let youWon = document.getElementById("win")
 let youLost = document.getElementById("lost")
 
 function showYouLost() {
+
     youLost.style.display = "block";
     canvas.style.display = "none";
+    startBtn.style.display = "none";
 }
 
 function showYouWin() {
     youWon.style.display = "block";
     canvas.style.display = "none";
+    startBtn.style.display = "none";
+
 }
 
 
@@ -80,7 +84,9 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if (score === brickRowCount * brickColumnCount) {
+
                         showYouWin();
+
                     }
                 }
             }
@@ -155,6 +161,7 @@ function draw() {
             lives--;
             if (!lives) {
                 showYouLost();
+                return;
             } else {
                 x = canvas.width / 2;
                 y = canvas.height - 30;

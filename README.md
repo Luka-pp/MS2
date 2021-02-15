@@ -115,5 +115,72 @@ This game is designed to be used on Desktop screens but it can be used on smalle
 
 Wireframes are done on paper, which can be seen [Here](./assets/doc/wireframes.pdf)
 
+### Surface Plane
+
+This website uses black background with the stars effect.
+The stars are created using JavaScript. On every load of the website
+Javascript creates 100 stars on a random positions on the screen.
+
+Credits page features the crawl text inspired by the Star Wars Saga
+and it is executed by CSS.
+
+Audio For the credits page is handled by JavaScript.
+
+## Features
+
+### Existing Features
+
+* Created in HTML, CSS, Bootstrap and JavaScript
+* 3 different pages
+* Canvas Element utilised for a 2D Brick Breaking Game with no external libraries
+* Crawl style and Star Wars inspired credits
+* Contact form
+
+### Features for future implementation
+
+* Full responsiveness with mobile controls
+* High scores list  
+* New levels of the game
+* Sound manager for game events and for credits page
+* Contact Forms to work fully
+
+## Technologies used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+* [Git](https://git-scm.com/) for version control
+* [GitHub](https://github.com/) for keeping the files, documents and deployment of the website
+* [Bootstrap](https://getbootstrap.com/) for main frame of the website
+* [JavaScript](https://www.javascript.com/) For game and background functionality
+* [WebStorm](https://www.jetbrains.com/webstorm/) As my main editor
+
+## Resources
+
+* [pixabay](https://pixabay.com/) for images with free license
+* [Code Institute](https://codeinstitute.net/) course materials
+* [Code Institute](https://codeinstitute.net/) Slack Community
+* [MDN](https://developer.mozilla.org/en-US/)
+* [Stackoverflow](https://stackoverflow.com/)
+* [Youtube](https://www.youtube.com/)
+* [W3schools](https://www.w3schools.com/)
+* [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
+* [Soda PDF](https://www.sodapdf.com/jpg-to-pdf/) to convert images to PDF
+* [MDN Game section](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) For main game idea and source code
+* [DEV.TO](https://dev.to/christopherkade/developing-the-star-wars-opening-crawl-in-htmlcss-2j9e) For help and inspiration regarding Credits Page
+* Star Wars Theme song and Star Wars Related images are the property of Walt Disney Company
+
+## Testing
+
+### Browser Testing
+
+Website has been tested in Google Chrome, Microsoft Edge, Safari, Firefox and Opera.
+
+It was tested on two mobile devices OnePlus and Apple Iphone. Both thsts confirmed that website works with limited functionality.
+
+On each browser the website works as intended visually and all the functionality of the website works as intended. 
+
+There is work to be done for full functionality on mobile devices.
+
+
 
 
