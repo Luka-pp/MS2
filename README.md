@@ -196,6 +196,12 @@ The website has been through 3 validators:
 Local testing of all the buttons links and general functionality of the website has been carried out. Everything
 is in a perfect working order and it works as it is intended.
 
+### Responsiveness
+
+The website is designed to be **Desktop First** but it also works and scales on the smaller screens.
+There is some more features that need to be implemented to make the game fully functional on the smaller
+devices.
+
 ## Version Control
 
 ### Git & GitHub
