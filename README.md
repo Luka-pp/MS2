@@ -215,7 +215,8 @@ in the left bottom corner
 * Work is now commited to the master branch
 * To push that commit to the **GitHub** I clicked on **Commit and Push** button 
 in the same window
-* 
+* On click on **Commit and Push** button the pop up window will show where I 
+needed to confirm that I want to push the work to my GitHub repository
 
 ## Deployment
 
