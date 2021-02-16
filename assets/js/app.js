@@ -21,8 +21,8 @@ let score = 0;
 let lives = 3;
 let startBtn = document.getElementById("startBtn");
 
-let youWon = document.getElementById("win")
-let youLost = document.getElementById("lost")
+let youWon = document.getElementById("win");
+let youLost = document.getElementById("lost");
 
 function showYouLost() {
 
@@ -97,7 +97,7 @@ function collisionDetection() {
 function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#3c3f41";
-    ctx.fillText("Score: " + score, 8, 20)
+    ctx.fillText("Score: " + score, 8, 20);
 }
 
 function drawLives() {

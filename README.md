@@ -181,6 +181,48 @@ On each browser the website works as intended visually and all the functionality
 
 There is work to be done for full functionality on mobile devices.
 
+### Validators
+
+The website has been through 3 validators:
+
+* JSHint: app.js, components.js and credits.js have been through the validator and no errors have been reported
+
+* W3C Jigsaw: style.css have been through and there are no errors to report.
+
+* W3C HTML: index.html, credits.html and contact.htm have been through and there are no errors to report.
+
+### Local Testing
+
+Local testing of all the buttons links and general functionality of the website has been carried out. Everything
+is in a perfect working order and it works as it is intended.
+
+## Version Control
+
+### Git & GitHub
+
+I used **[WebStorm](https://www.jetbrains.com/webstorm/)** as a local repository and IDE and **[GitHub](https://github.com/)** as a remote repository. The process of version control was:
+
+* First I created a new repository on GitHub  
+* I have then connected my GitHub account and my WebStorm IDE
+* I have then opened that repository in WebStorm and started coding
+* In WebStorm I have created all the pages and and folders
+* I was then saving my work and pushing it to GitHub repository to keep it safe
+* Process for saving, commiting and pushing it to remote repository goes as follows:
+* In the main window of WebStorm click on **Git**
+* On drop down menu click on **Commit**
+* The commit interface will open on the left side and after adding the commit message click on commit
+in the left bottom corner  
+* Work is now commited to the master branch
+* To push that commit to the **GitHub** I clicked on **Commit and Push** button 
+in the same window
+* 
+
+## Deployment
+
+To deploy the website, I followed the below steps on [GitHub](https://github.com/).
+1. Go to **"Settings"** on the repository
+2. On **"Source"** of **"GitHub Pages"**, select **"master** for Branch and click save
+3. The website is now published on GitHub Pages and the link is provided on the same section
 
 
 
