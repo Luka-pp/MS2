@@ -1,7 +1,5 @@
 const numStars = 100;
 
-
-
 for (let i = 0; i < numStars; i++) {
     let star = document.createElement("div");
     star.className = "star";
@@ -10,7 +8,6 @@ for (let i = 0; i < numStars; i++) {
     star.style.left = xy[1] + 'px';
     document.body.append(star);
 }
-
 
 function getRandomPosition() {
     let y = window.innerWidth;

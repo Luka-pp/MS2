@@ -252,7 +252,7 @@ I used **[WebStorm](https://www.jetbrains.com/webstorm/)** as a local repository
 * First I created a new repository on GitHub  
 * I have then connected my GitHub account and my WebStorm IDE
 * I have then opened that repository in WebStorm and started coding
-* In WebStorm I have created all the pages and and folders
+* In WebStorm I have created all the pages and folders
 * I was then saving my work and pushing it to GitHub repository to keep it safe
 * Process for saving, commiting and pushing it to remote repository goes as follows:
 * In the main window of WebStorm click on **Git**
@@ -269,7 +269,7 @@ needed to confirm that I want to push the work to my GitHub repository
 
 To deploy the website, I followed the below steps on [GitHub](https://github.com/).
 1. Go to **"Settings"** on the repository
-2. On **"Source"** of **"GitHub Pages"**, select **"master** for Branch and click save
+2. On **"Source"** of **"GitHub Pages"**, select **master** for Branch and click save
 3. The website is now published on GitHub Pages and the link is provided on the same section
 
 

@@ -155,6 +155,7 @@ p {
 }
 /*-----------------------------Media Query*/
 
+
 @media only screen and (max-width: 48rem) {
     #myCanvas{
         height: 100%;

@@ -84,9 +84,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if (score === brickRowCount * brickColumnCount) {
-
                         showYouWin();
-
                     }
                 }
             }
@@ -148,7 +146,6 @@ function draw() {
     drawScore();
     drawLives();
     collisionDetection();
-
     if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
         dx = -dx;
     }
@@ -172,7 +169,6 @@ function draw() {
         }
 
     }
-
     if (rightPressed && paddleX < canvas.width - paddleWidth) {
         paddleX += 7;
     } else if (leftPressed && paddleX > 0) {
