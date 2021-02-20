@@ -163,7 +163,7 @@ Audio For the credits page is handled by JavaScript.
 * [Stackoverflow](https://stackoverflow.com/)
 * [Youtube](https://www.youtube.com/)
 * [W3schools](https://www.w3schools.com/)
-* [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
+* [Am I Responsive](http://ami.responsivedesign.is/) for a responsive image in Read Me
 * [Soda PDF](https://www.sodapdf.com/jpg-to-pdf/) to convert images to PDF
 * [MDN Game section](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript) For main game idea and source code
 * [DEV.TO](https://dev.to/christopherkade/developing-the-star-wars-opening-crawl-in-htmlcss-2j9e) For help and inspiration regarding Credits Page
@@ -171,11 +171,52 @@ Audio For the credits page is handled by JavaScript.
 
 ## Testing
 
+### User Stories Testing
+
+**As a user I want to be able to navigate the website clearly and logically**
+
+* When on the main page of the game the navigation is done through navigation bar. The **New Game**
+  button will start a new game. By clicking on the **Credits** user will be directed on the 
+  credits page. Footer contains links to **Social Media Links**, **Credits** and **Contact** Page.
+  **Credits** Page does not have a footer but all the pages are accessible through header.
+  **Contact** Page contains links to all the pages. 
+  The whole websites follows the same principles and themes to help user to navigate through page easy.
+  
+
+**As a user I want to play enjoyable and stress free game**
+
+* Game can be controlled with keyboard and with the mouse. On click on new game user can 
+  start unlimited amount of games and enjoy as much as he/she wants. Game starts with the 
+  button start game and has 3 lives so user have a good chance of winning.
+  
+**As a user I want to track my score**
+
+* When the user clicks on **Start Game** button the score appears on the top right corner 
+  of the screen. With each destruction of the brick the user is allocated 1 point. Maximum 
+  amount of points the user can have is 35.
+
+**As a user I want to be able to control the paddle with mouse**
+
+* Game is designed so that the user can control the paddle with left and right keys on the keyboard.
+  User can also control the game by using the mouse. As soon as the mouse enters the canvas/game area
+  the paddle starts moving on mouse movement.
+  
+**As a user I want to see who created a game**
+
+* When user clicks on **Credits** page the credits will show who the author of the game is.
+  User can then click on the **See Credits Again** button to see the animation again.
+  
+**As a user I want to be able to contact the creator of the game**
+
+* When user clicks on the **Contact** button he/she is then redirected to the contact 
+  page and there user can contact the creator of the game.
+
+
 ### Browser Testing
 
 Website has been tested in Google Chrome, Microsoft Edge, Safari, Firefox and Opera.
 
-It was tested on two mobile devices OnePlus and Apple Iphone. Both thsts confirmed that website works with limited functionality.
+It was tested on two mobile devices OnePlus and Apple Iphone. Both tests confirmed that website works with limited functionality.
 
 On each browser the website works as intended visually and all the functionality of the website works as intended. 
 
@@ -218,7 +259,7 @@ I used **[WebStorm](https://www.jetbrains.com/webstorm/)** as a local repository
 * On drop down menu click on **Commit**
 * The commit interface will open on the left side and after adding the commit message click on commit
 in the left bottom corner  
-* Work is now commited to the master branch
+* Work is now committed to the master branch
 * To push that commit to the **GitHub** I clicked on **Commit and Push** button 
 in the same window
 * On click on **Commit and Push** button the pop up window will show where I 

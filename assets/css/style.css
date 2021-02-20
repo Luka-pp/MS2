@@ -153,6 +153,7 @@ p {
     margin: 0 auto;
     color: black;
 }
+/*-----------------------------Media Query*/
 
 @media only screen and (max-width: 48rem) {
     #myCanvas{
